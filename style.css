@@ -96,6 +96,20 @@ h2 {
     align-items: center;
 }
 
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.header-buttons > button {
+    background-color: rgb(126, 164, 235);
+    border: none;
+    border-radius: 19px;
+    height: 44px;
+    width: 125px;
+    font-size: 21px;
+}
+
 .main-content {
     background-color: grey;
 }
