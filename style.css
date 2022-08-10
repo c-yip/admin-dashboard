@@ -52,6 +52,10 @@ html, body, .container {
     height: 100%;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
 .container {
     display: grid;
     grid-template-columns: auto 3fr;
@@ -63,6 +67,39 @@ html, body, .container {
     grid-column-start: 2;
 }
 
+.search-bar {
+    display: flex;
+}
+
+.search-bar > input {
+    background-color: rgb(215, 255, 242);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+}
+
+.top-right > img {
+    align-self: center;
+}
+
+.top-right > p {
+    font-size: 1.5em;
+}
+
+.user-greeting {
+    display: flex;
+    align-items: center;
+}
+
+.main-content {
+    background-color: grey;
+}
+
 .sidebar {
     grid-row-start: 1;
     grid-row-end: 3;
@@ -72,10 +109,6 @@ html, body, .container {
     gap: 75px;
     padding: 25px;
     padding-right: 60px;
-}
-
-.main-content {
-    background-color: grey;
 }
 
 .dashboard-title {
