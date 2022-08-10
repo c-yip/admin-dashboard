@@ -10,7 +10,7 @@ html, body, .container {
 }
 
 .header {
-    background-color: blue;
+    background-color: white;
     grid-column-start: 2;
 }
 
@@ -18,6 +18,8 @@ html, body, .container {
     grid-row-start: 1;
     grid-row-end: 3;
     background-color: rgb(126, 164, 235);
+    display: flex;
+    flex-direction: column;
 }
 
 .main-content {
