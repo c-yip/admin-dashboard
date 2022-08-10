@@ -15,7 +15,9 @@ html, body, .container {
 }
 
 .sidebar {
-    background-color: white;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgb(126, 164, 235);
 }
 
 .main-content {
