@@ -25,3 +25,7 @@ html, body, .container {
 .main-content {
     background-color: grey;
 }
+
+.dashboard-title {
+    display: flex;
+}
