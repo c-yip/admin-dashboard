@@ -247,9 +247,48 @@ h2 {
     color: rgb(82, 81, 81)
 }
 
+/* trending */
 .trending {
     grid-column-start: 2;
     grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.trending > h2 {
+    padding: 22px;
+    font-weight: 900;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.trend-container {
+    background-color: #ffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
+    padding: 22px;
+    margin-right: 22px;
+}
+
+.trend-card {
+    display: flex;
+}
+
+.trend-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(82, 81, 81);
+    justify-content: center;
+}
+
+.trend-card-text > p:first-of-type {
+    font-weight: 800;
+    color: rgb(0, 0, 0)
 }
 
 /* sidebar */
