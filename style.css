@@ -157,6 +157,22 @@ h2 {
 .card {
     background-color: white;
     border: solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    gap: 10px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.icon-container > img {
+    height: 36px;
+    width: 36px;
 }
 
 .announcements {
