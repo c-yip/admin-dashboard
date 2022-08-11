@@ -149,7 +149,8 @@ h2 {
 
 .projects > h2 {
     padding: 22px;
-    padding-bottom: none;
+    font-weight: 900;
+    padding-bottom: 0px;
 }
 
 .card-container {
@@ -161,9 +162,11 @@ h2 {
 
 .card {
     background-color: #ffff;
-    border: solid black;
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
+    border-left: 10px solid #6fade1;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
 }
 
 .card-text {
@@ -172,6 +175,14 @@ h2 {
     gap: 8px;
     padding-top: 30px;
     padding-left: 26px;
+}
+
+.card-text > h2 {
+    font-weight: 900;
+}
+
+.card-text > p {
+    color: rgb(82, 81, 81)
 }
 
 .icon-container {
