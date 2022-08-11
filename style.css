@@ -128,6 +128,21 @@ h2 {
     grid-row-end: 5;
 }
 
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px) 20%;;
+}
+
+.card-container {
+    display: grid;
+    gap: 15px;
+}
+
+.card {
+    background-color: white;
+    border: solid black;
+}
+
 .sidebar {
     grid-row-start: 1;
     grid-row-end: 5;
