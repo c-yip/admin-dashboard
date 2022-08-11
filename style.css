@@ -64,7 +64,7 @@ h2 {
 
 /* header */
 .header {
-    background-color: white;
+    background-color: #ffff;
     grid-column-start: 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -77,7 +77,7 @@ h2 {
 }
 
 .search-bar > input {
-    background-color: rgb(215, 255, 242);
+    background-color: #f0f9ff;
     border: none;
     border-radius: 10px;
     width: 100%;
@@ -112,7 +112,8 @@ h2 {
 }
 
 .header-buttons > button {
-    background-color: rgb(126, 164, 235);
+    background-color: #0ea5e9;
+    color: #ffff;
     border: none;
     border-radius: 19px;
     height: 44px;
@@ -123,7 +124,7 @@ h2 {
 
 /* main content */
 .main-content {
-    background-color: rgb(183, 175, 233);
+    background-color: #e0f2fe;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -155,7 +156,7 @@ h2 {
 }
 
 .card {
-    background-color: white;
+    background-color: #ffff;
     border: solid black;
     display: flex;
     flex-direction: column;
@@ -197,7 +198,7 @@ h2 {
 .sidebar {
     grid-row-start: 1;
     grid-row-end: 5;
-    background-color: rgb(126, 164, 235);
+    background-color: #0ea5e9;
     display: flex;
     flex-direction: column;
     gap: 75px;
