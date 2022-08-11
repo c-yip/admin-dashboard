@@ -70,6 +70,8 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    padding: 13px 40px 13px 40px;
+    gap: 25px;
 }
 
 .search-bar {
@@ -81,23 +83,19 @@ h2 {
     background-color: #f0f9ff;
     border: none;
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
 }
 
 .top-right {
     display: flex;
     align-items: center;
     justify-self: flex-end;
-    padding-right: 43px;
     gap: 10px;
+    font-weight: 900;
 }
 
 .top-right > img {
     align-self: center;
-}
-
-.top-right > p {
-    font-size: 1.5em;
 }
 
 .user-greeting {
@@ -105,22 +103,29 @@ h2 {
     align-items: center;
 }
 
+.user-greeting-text {
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .header-buttons {
     display: flex;
     gap: 15px;
     justify-self: flex-end;
-    padding-right: 43px;
 }
 
 .header-buttons > button {
     background-color: #0ea5e9;
     color: #ffff;
     border: none;
-    border-radius: 19px;
-    height: 44px;
-    width: 125px;
-    font-size: 21px;
+    border-radius: 45px;
+    padding: 1em 2em;
+    font-size: 15px;
+    font-weight: 550;
     cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* main content */
@@ -130,6 +135,7 @@ h2 {
     grid-row-start: 2;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    box-shadow: inset 0px 3px 6px 0px #888888;
 }
 
 .projects {
