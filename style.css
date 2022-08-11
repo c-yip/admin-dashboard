@@ -161,6 +161,14 @@ h2 {
     flex-direction: column;
 }
 
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 30px;
+    padding-left: 26px;
+}
+
 .icon-container {
     display: flex;
     justify-content: end;
