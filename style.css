@@ -58,8 +58,8 @@ h2 {
 
 .container {
     display: grid;
-    grid-template-columns: auto 3fr;
-    /* grid-template-rows: 1fr 5fr; */
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
 }
 
 /* header */
@@ -126,14 +126,11 @@ h2 {
 .main-content {
     background-color: #e0f2fe;
     grid-column-start: 2;
-    grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end: 5;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
-/* projects */
 .projects {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -197,7 +194,7 @@ h2 {
 /* sidebar */
 .sidebar {
     grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-end: 3;
     background-color: #0ea5e9;
     display: flex;
     flex-direction: column;
