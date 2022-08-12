@@ -157,7 +157,7 @@ h2 {
 .card-container {
     display: grid;
     gap: 36px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
     padding: 22px;
     flex-grow: 1;
 }
