@@ -63,6 +63,18 @@ h2 {
     grid-template-rows: auto 1fr;
 }
 
+.user-icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    background: #6fade1; 
+    font-weight: 200;
+}
+
 /* header */
 .header {
     background-color: #ffff;
@@ -101,6 +113,18 @@ h2 {
 .user-greeting {
     display: flex;
     align-items: center;
+    gap: 10px;
+}
+
+.user-greeting > .user-icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #6fade1; 
 }
 
 .user-greeting-text {
@@ -136,6 +160,7 @@ h2 {
     display: grid;
     grid-template-columns: 2fr 1fr;
     box-shadow: inset 0px 3px 6px 0px #888888;
+    padding-bottom: 20px;
 }
 
 /* projects */
@@ -278,6 +303,23 @@ h2 {
 
 .trend-card {
     display: flex;
+    gap: 10px;
+}
+
+.trend-card .pink {
+    background-color: #eea7a7;
+}
+
+.trend-card .red {
+    background-color: #bb1b1b;
+}
+
+.trend-card .green {
+    background-color: #2de24b;
+}
+
+.trend-card .yellow {
+    background-color: #8c9916;
 }
 
 .trend-card-text {
