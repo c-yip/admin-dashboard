@@ -272,6 +272,7 @@ img {
 .announce-card > h2 {
     font-weight: 900;
     font-size: 22px;
+    cursor: pointer;
 }
 
 .announce-card > p {
@@ -354,10 +355,11 @@ img {
 .dashboard-title {
     display: grid;
     grid-template-columns: auto 1fr;
-    font-size: 2em;
+    font-size: 1.5em;
     align-items: center;
     gap: 17px;
     color: white;
+    cursor: pointer;
 }
 
 .sidebar-one, .sidebar-two {
@@ -370,4 +372,5 @@ img {
 
 .sidebar-one > h2, .sidebar-two > h2 {
     font-size: 16px;
+    cursor: pointer;
 }
